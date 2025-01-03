@@ -1,0 +1,57 @@
+.sidebar{
+    width:18rem;
+    border-right:1px solid black;
+    height:92.8vh;
+     
+    background-color: black;
+    margin-top: -1rem;
+    padding-left: 1rem;
+}
+
+.sidebar-options{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 2rem;
+
+    font-size:2rem;
+    color: white;
+}
+.sidebar-option{
+    border:2px solid red;
+    border-right: none;
+    padding-left: 2rem;
+    margin-right: 0.3rem;
+    color: white;
+    text-decoration: none;
+}
+.sidebar-option:hover{
+    color:red;
+    cursor: pointer ;
+    color: red;
+    border:2px solid green;
+    transform: scale(1.04);
+    border-right: none;
+
+}
+
+ .sidebar-option.active{
+    color:red;
+    cursor: pointer ;
+    color: red;
+    border:2px solid green;
+    transform: scale(1.04);
+    border-right: none;
+}
+
+.sidebar-options Navlink{
+    
+}
+
+
+@media screen and (max-width:900px){
+    .sidebar-option p{
+        display: none;
+    }
+}

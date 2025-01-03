@@ -1,0 +1,9 @@
+.orderproduct{
+    height:93vh;
+    background-color: black;
+    margin-top:-1vh;
+    overflow-y: auto;
+}
+.orderproduct::-webkit-scrollbar{
+    display: none;
+}

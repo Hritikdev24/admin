@@ -1,0 +1,77 @@
+.form{
+    width:50rem;
+
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.form label,.form p{
+    color:red;
+    font-size:2rem;
+    text-transform: capitalize;
+
+}
+.form h1{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.form >div{
+    margin-top:1rem;
+    padding: 1rem;
+}
+.addproduct{
+    display: grid;
+      width:100%;
+    place-items:center;
+}
+.form input{
+ border-radius: 0px;
+ border:1px solid red;
+ font-size:1.6rem;
+}
+
+.form select{
+    border:1px solid red;
+    border-radius: 0px;
+    font-size: 1.6rem;
+    width:20rem
+}
+
+.form select option{
+  text-transform: capitalize;
+  text-align: center;
+  padding: 0.8rem;
+
+  font-weight: bold;
+}
+
+
+.form textarea{
+    border-radius: 0px;
+    border: 1px solid red;
+    font-size: 1.6rem;
+}
+
+.form img{
+    width:15rem;
+    height:15rem;
+    border: 1px solid red;
+}
+.form  .form-btn button{
+    width:20rem;
+    font-size: 2rem;
+    padding:0.7rem;
+    margin: 0.5rem;
+}
+.form  .form-btn{
+    text-align: center;
+}
+
+.form-hritik{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap:1rem;
+    place-items: center;
+}  

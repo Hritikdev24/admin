@@ -1,0 +1,13 @@
+.navbar .navbar-content img{
+    width:5rem;
+    height:5rem;
+    border-radius: 50%;
+}
+.navbar{
+    margin-top: -1rem;
+}
+.navbar-content{
+    background-color: red; 
+    padding: 1rem;
+    font-size: 3rem;
+}
