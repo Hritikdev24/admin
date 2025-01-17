@@ -2,11 +2,14 @@
 
 .productList{
      width: 100%;
+      overflow-y: auto;
+      height:90vh;
 }
 
 .product-parent{
 
- 
+   height: 100%;
+   overflow-y: auto;
   padding: 1rem;
 }
 
@@ -45,6 +48,7 @@
   margin-top: 1vh;
   border-bottom: 1px solid black;
   text-transform: capitalize;
+  
 }
 
 .trash{
