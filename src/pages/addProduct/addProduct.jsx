@@ -109,7 +109,7 @@ export function AddProduct({url}) {
               <option value="veg">Veg</option>
               <option value="biryani">Biryani</option>
               <option value="chicken">Chicken</option>
-              <option value="noodles">Noodles</option>
+              <option value="noddles">Noodles</option>
               <option value="ice-cream">Ice-Cream</option>
               <option value="street">Street</option>
             </select>
